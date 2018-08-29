@@ -112,7 +112,7 @@ interface ERC721TokenReceiver {
 
 /// @author Hojin Hwang <zxoihojin@gmail.com> (https://github.com/2013250433)
 //  Of course except the basic ERC721 part... 
-contract Polarship721 is ERC721, CheckERC165{
+contract Pholarship721 is ERC721, CheckERC165{
     using SafeMath for uint256;
     
     /** using internal visibility rather than private 
